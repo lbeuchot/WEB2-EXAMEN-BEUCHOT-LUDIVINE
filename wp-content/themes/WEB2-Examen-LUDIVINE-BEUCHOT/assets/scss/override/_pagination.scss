@@ -1,0 +1,37 @@
+// Ajout du style pour l'élement sélectionné -- Orange en background et blanc pour l'écriture
+
+.pagination .current {
+    padding: 5px;
+    background: #f78228;
+    border-radius: 10px !important;
+    color: #fff;
+  }
+
+  .pagination .current a {
+      color: #fff;
+      font-weight: 800;
+    }
+
+// Ajout du style de base de l'élément, contour orange, police grasse et couleur noir
+
+  .pagination li {
+    padding: 5px;
+    background: white;
+    border: 2px solid #f78228;
+    border-radius: 10px !important;
+  }
+
+  .pagination li:hover {
+    background: #f78228;
+    color: white;
+  }
+
+  .pagination li a:hover {
+    background: #f78228;
+    color: white;
+  }
+
+.pagination a {
+  font-weight: 800;
+  color: black;
+}

@@ -1,0 +1,91 @@
+// Ajout d'un padding bottom pour aérer le contenu
+
+.premiere-partie-accueil {
+  padding-bottom: 20px;
+}
+
+// Ajout d'un padding pour aérer le texte
+
+.texte-accueil-image {
+  padding-left: 15px;
+}
+
+// Style du texte de la première partie de la page
+
+.texte-accueil-image a {
+  font-weight: 800;
+  font-size: 14px;
+  color: black;
+  float: right;
+}
+
+.texte-accueil-image p {
+  font-size: 16px;
+}
+
+.contour-titre-accueil {
+  border-top: 4px solid #f78228;
+  border-bottom: 4px solid #f78228;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+// Ajout du background partie projets
+
+.background-projets {
+  background-color: #f8f8f8;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+// Ajout de la marge items
+
+.items-projets {
+  padding-top: 60px;
+}
+
+.items-projets .large-2 {
+  text-align: center;
+}
+
+.texte-projets {
+  margin-right: 30px;
+  margin-left: 25px;
+  padding-right: 15px;
+}
+
+.items-projets p {
+  text-align: center;
+}
+
+.column:last-child:not(:first-child), .columns:last-child:not(:first-child) {
+  float: left;
+}
+
+// Ajout du background map
+
+.background-map {
+  background-color: #feddc3;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 25px;
+}
+
+// Margin conteneur article
+
+.conteneur-articles-recents {
+  margin-top: 40px;
+}
+
+// Taille du titre des articles récents
+
+.titre-home-taille {
+  font-weight: 800;
+  font-size: 20px;
+  text-transform: none;
+  color: black;
+}
+
+.extrait-article {
+  margin-top: 15px;
+}

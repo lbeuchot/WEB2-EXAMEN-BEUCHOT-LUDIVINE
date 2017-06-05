@@ -35,12 +35,34 @@
 				</span>
 			</div>
 		</div>
-		<nav class="site-navigation top-bar" role="navigation">
-			<div class="top-bar-left">
-				<div class="site-desktop-title top-bar-title">
-					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
+
+		<nav>
+			<div class="row">
+
+				<div class="large-3 columns text-left">
+					<div class="site-desktop-title top-bar-title">
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logo.png" alt="Logo" />
+					</div>
 				</div>
+
+				<div class="large-7 text-center columns">
+					<?php foundationpress_top_bar_r(); ?>
+
+					<?php if ( ! get_theme_mod( 'wpt_mobile_menu_layout' ) || get_theme_mod( 'wpt_mobile_menu_layout' ) === 'topbar' ) : ?>
+						<?php get_template_part( 'template-parts/mobile-top-bar' ); ?>
+					<?php endif; ?>
+				</div>
+
+				<div class="large-2 columns text-right">
+						<i class="fa fa-search" aria-hidden="true"></i>
+						<i class="fa fa-flag" aria-hidden="true"></i>
+						<i class="fa fa-flag" aria-hidden="true"></i>
+				</div>
+
 			</div>
+		</nav>
+		<!-- <nav class="site-navigation top-bar" role="navigation">
+
 			<div class="top-bar-right">
 				<?php foundationpress_top_bar_r(); ?>
 
@@ -48,7 +70,7 @@
 					<?php get_template_part( 'template-parts/mobile-top-bar' ); ?>
 				<?php endif; ?>
 			</div>
-		</nav>
+		</nav> -->
 	</header>
 
 	<section class="container">

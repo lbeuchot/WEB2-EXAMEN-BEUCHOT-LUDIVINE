@@ -90,3 +90,41 @@
 // Templates
 @import "templates/front";
 @import "templates/kitchen-sink";
+@import "override/padding-base";
+
+// Pagination
+
+@import "override/pagination";
+
+// Typographies
+
+@import "override/typo";
+
+// Citations
+
+@import "override/citations";
+
+
+// Menu
+
+@import "override/menu";
+
+// Sidebar customisation
+
+@import "override/sidebar-custom";
+
+// Nav custom
+
+@import "override/nav-custom";
+
+// Page catégorie
+
+@import "override/style-category";
+
+// Page article
+
+@import "override/page-article";
+
+// Page accueil
+
+@import "override/accueil";

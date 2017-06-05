@@ -19,11 +19,18 @@ get_header(); ?>
 
 <div class="main-wrap" role="main">
 	<article class="main-content">
+		<h1 class="titre-blog">BLOG</h1>
 	<?php if ( have_posts() ) : ?>
 
 		<?php /* Start the Loop */ ?>
 		<?php while ( have_posts() ) : the_post(); ?>
-			<?php get_template_part( 'template-parts/content', get_post_format() ); ?>
+			<div class="row">
+				<div class="large-5 columns"><?php the_post_thumbnail(); ?></div>
+				<div class="large-7 columns">
+					<div class="titre-category"><a href="<?php the_permalink(); ?>"><?php get_the_title() ? the_title() : the_ID(); ?></a></div>
+					<div class="extrait-category"><?php the_excerpt(); ?></div>
+				</div>
+			</div>
 		<?php endwhile; ?>
 
 		<?php else : ?>
@@ -47,5 +54,6 @@ get_header(); ?>
 	<?php get_sidebar(); ?>
 
 </div>
+<?php get_the_post_navigation(); ?>
 
 <?php get_footer();

@@ -1,0 +1,33 @@
+// Stylisation des boutons de pagination
+
+.post-previous {
+  float: left;
+  color: #f78228;
+}
+
+.post-next {
+  float: right;
+  color: #f78228;
+}
+
+#post-nav {
+  margin-top: 30px;
+}
+
+// Style des boutons catégories
+
+.liste-categorie a {
+  margin-top: 10px;
+  border: 2px solid black;
+  position: relative;
+  display: inline!important;
+  margin-right: 10px;
+  padding: 5px;
+  color: black;
+  font-weight: 800;
+  font-size: 16px;
+}
+
+.liste-categorie {
+  margin-top: 30px;
+}

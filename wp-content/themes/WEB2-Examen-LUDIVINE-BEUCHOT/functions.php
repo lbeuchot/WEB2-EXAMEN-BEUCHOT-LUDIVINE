@@ -51,5 +51,22 @@ require_once( 'library/sticky-posts.php' );
 /** Configure responsive image sizes */
 require_once( 'library/responsive-images.php' );
 
+/** Image à la une */
+add_theme_support( 'post-thumbnails' );
+
+/** Extrait **/ /** Ajout de la fonction pour augmenter la capacité de mots contenus dans lex extraits **/
+
+function new_excerpt_length($length) {
+return 70;
+}
+add_filter('excerpt_length', 'new_excerpt_length');
+
+/** Ajout de la fonction du bouton lire plus et stylisation de celui-ci **/
+
+add_filter('excerpt_more', 'gkp_custom_excerpt_more');
+function gkp_custom_excerpt_more($more) {
+   global $post;
+   return '… <div class="large-12 columns bouton-lire-plus"><a title="' . get_the_title($post->ID) . '" href="' . get_permalink($post->ID) . '">' . 'LIRE' . '</a></div>';
+}
 /** If your site requires protocol relative url's for theme assets, uncomment the line below */
 // require_once( 'library/class-foundationpress-protocol-relative-theme-assets.php' );

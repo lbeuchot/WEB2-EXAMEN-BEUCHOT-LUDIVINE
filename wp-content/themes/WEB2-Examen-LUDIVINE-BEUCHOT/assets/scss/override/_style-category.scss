@@ -1,0 +1,44 @@
+// Ajout du style des titres de la page catégorie
+
+div.titre-category a {
+  font-weight: 800;
+  font-size: 30px;
+  text-transform: none;
+  color: black;
+}
+
+// Ajout du style du texte de la page catégorie
+
+div.extrait-category p {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+// Ajout d'un margin pour aérer le contenu autour du titre-category
+
+.titre-blog {
+  margin-bottom: 20px;
+}
+
+// Ajout du style du bouton "Lire plus"
+
+.bouton-lire-plus a {
+  color: black;
+  font-weight: 800;
+  font-size: 14px;
+  color: #f78228;
+  text-align: center;
+  float: right;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border: 2px solid #f78228;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.bouton-lire-plus a:hover {
+  color: white;
+  background-color: #f78228;
+}

@@ -1,0 +1,62 @@
+// Ajout du style des titres de la sidebar
+
+h6 {
+  border-top: 4px solid #f78228;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  font-weight: 800;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+// Ajout du style du widget catégories
+
+.widget.widget_categories a {
+  color: black;
+  font-weight: 600;
+  list-style-type: none;
+}
+
+.widget.widget_categories li {
+  list-style-type:none;
+  border: 2px solid black;
+  position: relative;
+  display: inline!important;
+  margin-right: 10px;
+  padding: 5px;
+}
+
+ul {
+  margin-left: 0px;
+}
+
+// Ajout du style du widget articles récents
+
+.widget.widget_recent_entries a {
+  color: black;
+  font-weight: 600;
+  list-style-type: none;
+  font-size: 14px;
+}
+
+.widget.widget_recent_entries li {
+  list-style-type:none;
+}
+
+// Style de la catégorie articles récents - Taille de l'image, des titres et date
+
+span.post-date {
+  font-weight: 300;
+  font-style: italic;
+  width: 100%;
+  font-size: 12px;
+}
+
+img.attachment-post-thumbnail.size-post-thumbnail.wp-post-image {
+  padding-right: 15px;
+}
+
+.columns {
+  padding-left: 0px;
+  padding-right: 0px;
+}
