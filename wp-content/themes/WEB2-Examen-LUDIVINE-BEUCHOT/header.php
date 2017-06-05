@@ -45,7 +45,7 @@
 					</div>
 				</div>
 
-				<div class="large-7 text-center columns">
+				<div class="large-7 text-center columns menu-centered">
 					<?php foundationpress_top_bar_r(); ?>
 
 					<?php if ( ! get_theme_mod( 'wpt_mobile_menu_layout' ) || get_theme_mod( 'wpt_mobile_menu_layout' ) === 'topbar' ) : ?>
@@ -61,16 +61,6 @@
 
 			</div>
 		</nav>
-		<!-- <nav class="site-navigation top-bar" role="navigation">
-
-			<div class="top-bar-right">
-				<?php foundationpress_top_bar_r(); ?>
-
-				<?php if ( ! get_theme_mod( 'wpt_mobile_menu_layout' ) || get_theme_mod( 'wpt_mobile_menu_layout' ) === 'topbar' ) : ?>
-					<?php get_template_part( 'template-parts/mobile-top-bar' ); ?>
-				<?php endif; ?>
-			</div>
-		</nav> -->
 	</header>
 
 	<section class="container">

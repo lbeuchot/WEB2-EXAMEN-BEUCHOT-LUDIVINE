@@ -30,22 +30,22 @@ get_header(); ?>
       </div>
       <div class="items-projets">
 
-        <div class="large-2 medium-3 small-6 columns ">
+        <a href="#"><div class="large-2 medium-3 small-6 columns ">
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/fablab.png" alt="Fablab">
             <p>FabLab</p>
-        </div>
-        <div class="large-2 medium-3 small-6 columns ">
+        </div></a>
+        <a href="#"><div class="large-2 medium-3 small-6 columns ">
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/atelier.png" alt="Atelier d'artistes">
             <p>Atelier d'artistes</p>
-        </div>
-        <div class="large-2 medium-3 small-6 columns ">
+        </div></a>
+        <a href="#"><div class="large-2 medium-3 small-6 columns ">
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/expositions.png" alt="Expositions">
             <p>Expositions</p>
-        </div>
-        <div class="large-2 medium-3 small-6 columns ">
+        </div></a>
+        <a href="#"><div class="large-2 medium-3 small-6 columns ">
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/cafemusique.png" alt="Café musique">
             <p>Café musique</p>
-        </div>
+        </div></a>
 
       </div>
 
@@ -82,6 +82,9 @@ get_header(); ?>
  Rue de la Coopérative 67000 Strasbourg</p>
         <p><i class="fa fa-phone" aria-hidden="true"></i> 03.88.25.99.99</p>
         <p><i class="fa fa-envelope" aria-hidden="true"></i> la.cooperative@lacoop.fr</p>
+				<div class="bouton-contact">
+					<a href="#" class="button">NOUS CONTACTER</a>
+				</div>
       </div>
 
     </div>

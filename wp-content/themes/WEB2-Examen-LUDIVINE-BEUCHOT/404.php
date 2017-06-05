@@ -9,32 +9,16 @@
 get_header(); ?>
 
  <div class="main-wrap" role="main">
-	<article <?php post_class('main-content') ?> id="post-<?php the_ID(); ?>">
-		<header>
-			<h1 class="entry-title"><?php _e( 'File Not Found', 'foundationpress' ); ?></h1>
-		</header>
-		<div class="entry-content">
-			<div class="error">
-				<p class="bottom"><?php _e( 'The page you are looking for might have been removed, had its name changed, or is temporarily unavailable.', 'foundationpress' ); ?></p>
-			</div>
-			<p><?php _e( 'Please try the following:', 'foundationpress' ); ?></p>
-			<ul>
-				<li><?php _e( 'Check your spelling', 'foundationpress' ); ?></li>
-				<li>
-					<?php
-						/* translators: %s: home page url */
-						printf( __(
-							'Return to the <a href="%s">home page</a>', 'foundationpress' ),
-							home_url()
-						);
-					?>
-				</li>
-				<li><?php _e( 'Click the <a href="javascript:history.back()">Back</a> button', 'foundationpress' ); ?></li>
-			</ul>
-		</div>
+	<article>
+    <div class="row page-404">
+      <div class="large-12 columns 404-page">
+        <h1>PAGE 404</h1>
+        <h3>Désolé, cette page est introuvable ou a été supprimée...</h3>
+        <p>Pour revenir à la page principale, cliquez sur le bouton ci-dessous !</p>
+      </div>
+      <a href="javascript:history.go(-1)" class="button">RETOUR</a>
+    </div>
 	</article>
-
- <?php get_sidebar(); ?>
 
 </div>
 

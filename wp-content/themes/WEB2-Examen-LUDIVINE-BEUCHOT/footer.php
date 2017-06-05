@@ -18,17 +18,17 @@
 				<?php do_action( 'foundationpress_after_footer' ); ?>
 
 				<div class="row">
-					<div class="large-4 columns left">
-						<p>© La COOP - Tous droits réservés</p>
-					</div>
-					<div class="large-4 columns text-center">
+					<div class="large-4 medium-12 columns text-center">
 						<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logo.png" alt="Logo" height="" width="100" />
 					</div>
-					<div class="large-4 columns text-right">
+					<div class="large-4 medium-12 text-center columns">
 						<i class="fa fa-facebook-official" aria-hidden="true"></i>
 						<i class="fa fa-google-plus-square" aria-hidden="true"></i>
 						<i class="fa fa-twitter-square" aria-hidden="true"></i>
 						<i class="fa fa-instagram" aria-hidden="true"></i>
+					</div>
+					<div class="large-4 medium-12 text-center columns">
+						<p>© La COOP - Tous droits réservés</p>
 					</div>
 				</div>
 			</footer>
