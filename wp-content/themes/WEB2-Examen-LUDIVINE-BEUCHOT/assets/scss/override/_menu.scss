@@ -14,3 +14,26 @@
 .menu a:hover {
   border-bottom: 3px solid #f78228;
 }
+
+// Active menu
+
+.menu .active > a {
+  background: none;
+  color: black;
+}
+
+// Suppression du padding
+
+.dropdown.menu > li.is-dropdown-submenu-parent > a {
+  padding-right: 0px;
+}
+
+// Sous menu
+
+.menu.vertical > li {
+  padding-right: 30px;
+}
+
+.menu.vertical > li:last-child {
+  margin-bottom: 30px;
+}
