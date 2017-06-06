@@ -91,10 +91,6 @@ get_header(); ?>
 
   </div>
 
-		<?php do_action( 'foundationpress_page_before_entry_content' ); ?>
-		<?php do_action( 'foundationpress_page_before_comments' ); ?>
-		<?php comments_template(); ?>
-		<?php do_action( 'foundationpress_page_after_comments' ); ?>
 	</article>
 <?php endwhile;?>
 

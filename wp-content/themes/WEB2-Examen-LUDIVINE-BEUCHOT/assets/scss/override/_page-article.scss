@@ -31,3 +31,14 @@
 .liste-categorie {
   margin-top: 30px;
 }
+
+// Image
+
+.article__content div img {
+  max-width: 100%!important;
+  height: auto;
+}
+
+.image .wp-caption {
+  width: 100%!important;
+}
