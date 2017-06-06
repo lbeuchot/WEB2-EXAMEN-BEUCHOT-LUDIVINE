@@ -13,24 +13,31 @@
 		</section>
 		<div class="footer-container" data-sticky-footer>
 			<footer class="footer">
+
 				<?php do_action( 'foundationpress_before_footer' ); ?>
 				<?php dynamic_sidebar( 'footer-widgets' ); ?>
 				<?php do_action( 'foundationpress_after_footer' ); ?>
 
 				<div class="row">
+
 					<div class="large-4 medium-12 columns text-center">
 						<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logo.png" alt="Logo" height="" width="100" />
 					</div>
-					<div class="large-4 medium-12 text-center columns">
-						<i class="fa fa-facebook-official" aria-hidden="true"></i>
-						<i class="fa fa-google-plus-square" aria-hidden="true"></i>
-						<i class="fa fa-twitter-square" aria-hidden="true"></i>
-						<i class="fa fa-instagram" aria-hidden="true"></i>
+
+					<div class="large-4 medium-12 text-center columns fa-fontawesome reseaux-sociaux">
+
+						<a href="#"><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i></a>
+						<a href="#"><i class="fa fa-google-plus-square fa-2x" aria-hidden="true"></i></a>
+						<a href="#"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a>
+
 					</div>
+
 					<div class="large-4 medium-12 text-center columns">
 						<p>© La COOP - Tous droits réservés</p>
 					</div>
+
 				</div>
+
 			</footer>
 		</div>
 

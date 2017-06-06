@@ -73,7 +73,7 @@ get_header(); ?>
     <div class="row background-map">
 
       <div class="large-7 small-12 columns map">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2639.878539238785!2d7.787289615664319!3d48.57387507926071!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4796c92714ce0199%3A0x6c9ef56f2525d737!2sRue+de+la+Coop%C3%A9rative%2C+67000+Strasbourg!5e0!3m2!1sfr!2sfr!4v1496589694076" width="600" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2639.878539238785!2d7.787289615664319!3d48.57387507926071!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4796c92714ce0199%3A0x6c9ef56f2525d737!2sRue+de+la+Coop%C3%A9rative%2C+67000+Strasbourg!5e0!3m2!1sfr!2sfr!4v1496589694076" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
       </div>
       <div class="large-5 medium-12 columns">
         <h2>BESOIN DE NOUS TROUVER?</h2>

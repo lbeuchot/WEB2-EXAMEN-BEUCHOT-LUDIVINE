@@ -1,0 +1,32 @@
+// Responsive footer
+
+@media screen and (max-width: 1024px) {
+
+  .fa-fontawesome {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+}
+
+// Couleurs social buttons
+
+.fa-facebook-official {
+  color: #3b5998;
+  margin-right: 5px;
+}
+
+.fa-google-plus-square {
+  color: #d34836;
+  margin-right: 5px;
+}
+
+.fa-twitter-square {
+  color: #0084b4;
+}
+
+// Espacement font awesome
+
+.reseaux-sociaux i {
+  margin-right: 10px;
+}

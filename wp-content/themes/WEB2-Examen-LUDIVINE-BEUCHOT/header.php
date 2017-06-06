@@ -27,25 +27,27 @@
 	<?php do_action( 'foundationpress_layout_start' ); ?>
 
 	<header class="site-header" role="banner">
+
 		<div class="site-title-bar title-bar" <?php foundationpress_title_bar_responsive_toggle() ?>>
+
 			<div class="title-bar-left">
+
 				<button class="menu-icon" type="button" data-toggle="<?php foundationpress_mobile_menu_id(); ?>"></button>
-				<span class="site-mobile-title title-bar-title">
-					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
-				</span>
+
 			</div>
+
 		</div>
 
 		<nav>
 			<div class="row">
 
-				<div class="large-3 columns text-left">
-					<div class="site-desktop-title top-bar-title">
-						<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logo.png" alt="Logo" />
+				<div class="large-3 medium-2 columns text-left">
+					<div class="site-desktop-title top-bar-title logo-header">
+						<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logo.png" alt="Logo" /></a>
 					</div>
 				</div>
 
-				<div class="large-7 text-center columns menu-centered">
+				<div class="large-7 medium-8 text-center columns menu-centered">
 					<?php foundationpress_top_bar_r(); ?>
 
 					<?php if ( ! get_theme_mod( 'wpt_mobile_menu_layout' ) || get_theme_mod( 'wpt_mobile_menu_layout' ) === 'topbar' ) : ?>
@@ -53,14 +55,14 @@
 					<?php endif; ?>
 				</div>
 
-				<div class="large-2 columns text-right">
-						<i class="fa fa-search" aria-hidden="true"></i>
-						<i class="fa fa-flag" aria-hidden="true"></i>
-						<i class="fa fa-flag" aria-hidden="true"></i>
+				<div class="large-2 medium-2 text-right columns langue-choice">
+					<div id="weglot_here"></div>
 				</div>
 
 			</div>
+
 		</nav>
+
 	</header>
 
 	<section class="container">

@@ -37,3 +37,97 @@
 .menu.vertical > li:last-child {
   margin-bottom: 30px;
 }
+
+// Suppression flèche du bas menu déroulant
+
+.dropdown.menu > li.is-dropdown-submenu-parent > a::after {
+  display: none;
+}
+
+// Taille logo
+
+.logo-header a img {
+  width: 50%;
+  margin-left: 25px;
+  margin-top: 15px;
+}
+
+// Margin nav
+
+nav {
+  margin-top: 20px;
+}
+
+// Responsive menu
+
+
+@media screen and (max-width: 1024px) {
+
+  .logo-header a img {
+    width: 70%;
+  }
+
+
+}
+
+// Suppression fond titlebar
+
+.title-bar {
+  background-color: white;
+}
+
+// Suppression du logo
+
+@media screen and (max-width: 640px) {
+
+  .logo-header {
+    display: none;
+  }
+
+  section.container {
+    padding-top: 0px;
+  }
+
+}
+
+// Weglot positionnement
+
+.wg-drop.country-selector .wgcurrent {
+  border: none;
+}
+
+.wg-drop.country-selector ul {
+  border: none;
+}
+
+.wg-drop.country-selector .wgcurrent {
+  border: none;
+}
+
+// Positionnement langues
+
+.langue-choice {
+  padding-top: 20px;
+}
+
+// Positionnement responsive langues
+
+@media screen and (max-width: 640px) {
+
+.wg-drop.country-selector {
+  position: absolute;
+  top: 50px;
+  right: 0px;
+}
+
+}
+
+@media screen and (max-width: 640px) {
+
+.wg-drop.country-selector {
+  position: absolute;
+  top: 5px;
+  right: 0px;
+}
+
+}
