@@ -57,9 +57,10 @@ add_theme_support( 'post-thumbnails' );
 /** Extrait **/ /** Ajout de la fonction pour augmenter la capacité de mots contenus dans lex extraits **/
 
 function new_excerpt_length($length) {
-return 70;
+return 85;
 }
 add_filter('excerpt_length', 'new_excerpt_length');
+
 
 /** Ajout de la fonction du bouton lire plus et stylisation de celui-ci **/
 

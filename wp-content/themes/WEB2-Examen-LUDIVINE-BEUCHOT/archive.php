@@ -25,10 +25,10 @@ get_header(); ?>
 		<?php /* Start the Loop */ ?>
 		<?php while ( have_posts() ) : the_post(); ?>
 			<div class="row">
-				<div class="large-5 columns"><?php the_post_thumbnail(); ?></div>
+				<div class="large-5 columns thumbnail-article"><?php the_post_thumbnail(); ?></div>
 				<div class="large-7 columns">
 					<div class="titre-category"><a href="<?php the_permalink(); ?>"><?php get_the_title() ? the_title() : the_ID(); ?></a></div>
-					<div class="extrait-category"><?php the_excerpt(); ?></div>
+					<div class="extrait-category"><?php the_excerpt('50'); ?></div>
 				</div>
 			</div>
 		<?php endwhile; ?>

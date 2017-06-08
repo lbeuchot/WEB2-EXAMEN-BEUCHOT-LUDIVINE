@@ -42,3 +42,13 @@
 .image .wp-caption {
   width: 100%!important;
 }
+
+// Responsive
+
+@media screen and (max-width: 640px) {
+
+  .liste-categorie a {
+    font-size: 11px;
+  }
+
+}

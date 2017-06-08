@@ -43,6 +43,19 @@ a:hover active {
   color: black;
 }
 
+// Style des liens
+
+a {
+  color: #9b531b;
+}
+
+// Margin titre-home-taille
+
+h1.entry-title {
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
 // Taille des typos responsive
 
 @media screen and (max-width: 640px) {

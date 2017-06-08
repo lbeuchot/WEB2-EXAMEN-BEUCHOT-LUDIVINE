@@ -62,6 +62,12 @@
   float: left;
 }
 
+// Padding thumbnail
+
+.the-thumbnail {
+  padding-right: 30px;
+}
+
 // Ajout du background map
 
 .background-map {
@@ -90,14 +96,10 @@
   margin-top: 15px;
 }
 
-// Map
-
 .map iframe {
-  padding-right: 30px;
+  padding-right: 25px;
 }
 
-// Texte sous icones
-
-.items-projets p {
-  margin-top: 15px;
+.background-projets {
+  padding-right: 25px;
 }
