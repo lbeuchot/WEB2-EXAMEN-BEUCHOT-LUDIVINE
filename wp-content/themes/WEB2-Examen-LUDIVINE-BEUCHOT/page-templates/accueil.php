@@ -26,7 +26,7 @@ get_header(); ?>
 
       <div class="large-3 medium-12 columns texte-projets">
         <h2>LES PROJETS</h2>
-        <p>La ville de Strasbourg a présenté son projet de réhabilitation du quartier de l’ancienne Coopérative lors d’une conférence de presse le 10/04/2017. Au programme, des projets séduisants comme un FabLab, un café théâtre, des ateliers...</p>
+        <p>La ville de Strasbourg a présenté son projet de réhabilitation du quartier de l’ancienne Coopérative lors d’une conférence de presse le 11/04/2017. Au programme, des projets séduisants comme un FabLab, un café théâtre, des ateliers...</p>
       </div>
       <div class="items-projets">
 
