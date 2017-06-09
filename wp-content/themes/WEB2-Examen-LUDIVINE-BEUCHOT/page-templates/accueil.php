@@ -30,19 +30,19 @@ get_header(); ?>
       </div>
       <div class="items-projets">
 
-        <a href="#"><div class="large-2 medium-3 small-6 columns ">
+        <a href="http://localhost:8888/WEB2-EXAMEN-BEUCHOT-LUDIVINE/2017/06/08/le-fab-lab/"><div class="large-2 medium-3 small-6 columns ">
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/fablab.png" alt="Fablab">
             <p>FabLab</p>
         </div></a>
-        <a href="#"><div class="large-2 medium-3 small-6 columns ">
+        <a href="http://localhost:8888/WEB2-EXAMEN-BEUCHOT-LUDIVINE/2017/06/08/ateliers-dartistes/"><div class="large-2 medium-3 small-6 columns ">
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/atelier.png" alt="Atelier d'artistes">
             <p>Atelier d'artistes</p>
         </div></a>
-        <a href="#"><div class="large-2 medium-3 small-6 columns ">
+        <a href="http://localhost:8888/WEB2-EXAMEN-BEUCHOT-LUDIVINE/2017/06/08/expositions/"><div class="large-2 medium-3 small-6 columns ">
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/expositions.png" alt="Expositions">
             <p>Expositions</p>
         </div></a>
-        <a href="#"><div class="large-2 medium-3 small-6 columns ">
+        <a href="http://localhost:8888/WEB2-EXAMEN-BEUCHOT-LUDIVINE/2017/06/08/le-cafe-musique/"><div class="large-2 medium-3 small-6 columns ">
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/cafemusique.png" alt="Café musique">
             <p>Café musique</p>
         </div></a>
@@ -83,7 +83,7 @@ get_header(); ?>
         <p><i class="fa fa-phone" aria-hidden="true"></i> 03.88.25.99.99</p>
         <p><i class="fa fa-envelope" aria-hidden="true"></i> la.cooperative@lacoop.fr</p>
 				<div class="bouton-contact">
-					<a href="#" class="button">NOUS CONTACTER</a>
+					<a href="http://localhost:8888/WEB2-EXAMEN-BEUCHOT-LUDIVINE/contact/" class="button">NOUS CONTACTER</a>
 				</div>
       </div>
 
