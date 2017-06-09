@@ -1,6 +1,13 @@
 ## Base de données
 
 La base de données se nomme "web2-examen-migrate-20170609171938" elle est située dans le dossier "bdd" qui est à la racine du projet.
+Export avec migrate: //localhost:8888/WEB2-EXAMEN-BEUCHOT-LUDIVINE
+/Applications/MAMP/htdocs/WEB2-EXAMEN-BEUCHOT-LUDIVINE
+
+## Identifiants
+
+Pseudo: admin
+Mot de passe: admin
 
 ## Widget "Recent posts"
 
