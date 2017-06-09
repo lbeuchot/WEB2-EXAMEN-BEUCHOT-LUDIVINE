@@ -9,6 +9,9 @@ Export avec migrate: //localhost:8888/WEB2-EXAMEN-BEUCHOT-LUDIVINE
 Pseudo: admin
 Mot de passe: admin
 
+Nom donné à la BDD: web2-exam
+Préfixes: 2k17_lacoop_lb
+
 ## Widget "Recent posts"
 
 Merci de bien vouloir prendre le fichier "class-wp-widget-recent-posts.php" situé dans le dossier wp-includes/widgets à la racine de wordpress. Ce fichier a été modifié pour ajouter la thummbnail des articles dans la sidebar.

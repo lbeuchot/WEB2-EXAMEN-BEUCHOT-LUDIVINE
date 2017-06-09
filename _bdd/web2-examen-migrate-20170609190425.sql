@@ -1,6 +1,6 @@
 # WordPress MySQL database migration
 #
-# Generated: Friday 9. June 2017 17:19 UTC
+# Generated: Friday 9. June 2017 19:04 UTC
 # Hostname: localhost
 # Database: `web2-examen`
 # --------------------------------------------------------
@@ -147,7 +147,7 @@ CREATE TABLE `wp_2k17_lacoop_lb_options` (
   `autoload` varchar(20) COLLATE utf8_unicode_ci NOT NULL DEFAULT 'yes',
   PRIMARY KEY (`option_id`),
   UNIQUE KEY `option_name` (`option_name`)
-) ENGINE=InnoDB AUTO_INCREMENT=557 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=559 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 
 #
